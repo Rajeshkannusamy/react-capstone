@@ -1,0 +1,83 @@
+{
+  "products": [
+    {
+      "name": "Honda CBR",
+      "manufacturer": "Honda",
+      "quantity": "2",
+      "price": "130000",
+      "image": "https://images.carandbike.com/bike-images/large/honda/cbr-1000rr/honda-cbr-1000rr.jpg?v=16",
+      "description": "Powering the new 2018 Honda CBR250R is a 249.6cc, single cylinder, liquid-cooled engine mated to a six-speed transmission. The fuel injected mill is good for churning out respective power and torque outputs of 26.5 bhp and 22.9 Nm.",
+      "id": 1
+    },
+    {
+      "name": "Hornet",
+      "manufacturer": "Honda",
+      "quantity": "1",
+      "price": "100000",
+      "image": "https://www.drivespark.com/img/2020/06/honda-cb-hornet-160r-side-design-1593409308.jpg",
+      "description": "Super bike with more comfortable. mileage also good. worth for money, bike look is also good . for long drive fully comfortable, fuel consumption also good .",
+      "id": 2
+    },
+    {
+      "name": "Activa",
+      "manufacturer": "Honda",
+      "quantity": "2",
+      "price": "53900",
+      "image": "https://i.pinimg.com/236x/ea/22/01/ea220158fb97df2a7ddece99d390bf3b.jpg",
+      "description": "The cheapest model under the series is Honda Activa i with 109.19cc engine generating 8 bhp of power, whereas the most expensive model is Honda Activa 125 with 124cc engine generating 8.1 bhp of power. The Activa was launched at a time when geared scooters and 100cc commuter motorcycles ruled the Indian two wheeler market, in 2000. 18 years on, it regularly tops the sales charts as the highest-selling individual vehicle in the country.",
+      "id": 3
+    },
+    {
+      "name": "MT-15",
+      "manufacturer": "Yamaha",
+      "quantity": "1",
+      "price": "165000",
+      "image": "https://www.motoroids.com/wp-content/uploads/2019/05/Yamaha-MT-15-1200x675.jpg",
+      "description": "The MT 15 is a powered by 155cc BS6 engine mated to a 6 is speed gearbox . This engine of MT 15 develops a power of 18.5 ps and a torque of 13.9 nm . The Yamaha MT 15 gets disc brakes in the front and rear. The Yamaha MT 15 weighs 138 kg and has a fuel tank capacity of 10 liters.",
+      "id": 4
+    },
+    {
+      "name": "R-15",
+      "manufacturer": "Yamaha",
+      "quantity": "2",
+      "price": "170000",
+      "image": "https://images.carandbike.com/bike-images/large/yamaha/r15-v30/yamaha-r15-v30.jpg?v=17",
+      "description": "Yamaha YZF R15 V3 is powered by 155 cc engine. This R15 V3 engine generates a power of 18.6 PS @ 10000 rpm and a torque of 14.1 Nm @ 8500 rpm. Yamaha YZF R15 V3 gets Disc brakes in the front and rear. The kerb weight of R15 V3 is 142 Kg. Yamaha YZF R15 V3 has Tubeless Tyre and Alloy Wheels.",
+      "id": 5
+    },
+    {
+      "name": "Scooty",
+      "manufacturer": "Yamaha",
+      "quantity": "1",
+      "price": "78000",
+      "image": "https://imgd.aeplcdn.com/310x174/bw/models/yamaha-ray-zr-125-drum20200204202347.jpg",
+      "description": "Yamaha Fascino 125 is powered by 125 cc engine. This Fascino 125 engine generates a power of 8.2 PS @ 6500 rpm and a torque of 9.7 Nm @ 5000 rpm. The kerb weight of Fascino 125 is 99 Kg. Yamaha Fascino 125 has Tubeless Tyre and Alloy Wheels.",
+      "id": 6
+    },
+    {
+      "name": "Apache",
+      "manufacturer": "TVS",
+      "quantity": "3",
+      "price": "105000",
+      "image": "https://images.carandbike.com/bike-images/large/tvs/apache-rtr-160-4v/tvs-apache-rtr-160-4v.jpg?v=23",
+      "description": "The flagship in this series remains the TVS Apache RR 310 (Rs 2.40 lakh), a motorcycle jointly developed by TVS and BMW Motorrad. The modern Apaches like the RTR 160 4V and the RTR 200 4V get features like a four-valve head, oil-cooling and race-tuned suspension units, keeping the sporty genes of the brand intact.",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Rajesh",
+      "lastName": "K",
+      "email": "rajesh@gmail.com",
+      "password": "Password@123",
+      "id": 3,
+      "city": "Coimbatore",
+      "mobile": "9965843081",
+      "views": {
+        "1": 1,
+        "3": 1,
+        "4": 1
+      }
+    }
+  ]
+}
