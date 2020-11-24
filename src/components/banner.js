@@ -25,7 +25,7 @@ const Banner = () => {
 		  <Carousel.Item>
 		    <img
 		      className="d-block w-100 carousel-img-h"
-		      src="/images/cor3.jpg"
+		      src="/images/cor6.jpg"
 		      alt="First slide"
 		    />
 		    <Carousel.Caption>
