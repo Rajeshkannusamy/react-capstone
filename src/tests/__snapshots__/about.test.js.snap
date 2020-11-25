@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About page snapshot renders correctly 1`] = `
+"<About>
+  <div className=\\"w-90 m-auto pt-3\\">
+    <Card body={false}>
+      <div className=\\"card\\">
+        <CardBody>
+          <div className=\\"card-body\\">
+            <CardText>
+              <p className=\\"card-text\\">
+                About Bike Palace - The Place where we can able to find three top most brands of bikes both New bikes as well as old bike at differnt price
+              </p>
+            </CardText>
+          </div>
+        </CardBody>
+      </div>
+    </Card>
+    <Card className=\\"mt-3\\" body={false}>
+      <div className=\\"mt-3 card\\">
+        <CardBody>
+          <div className=\\"card-body\\">
+            <CardTitle>
+              <ForwardRef className=\\"card-title\\">
+                <div className=\\"card-title h5\\">
+                  Honda
+                </div>
+              </ForwardRef>
+            </CardTitle>
+            <CardText>
+              <p className=\\"card-text\\">
+                Honda Motor Company, Ltd. is a Japanese public multinational conglomerate corporation primarily known as a manufacturer of automobiles, motorcycles, and power equipment.
+              </p>
+            </CardText>
+          </div>
+        </CardBody>
+      </div>
+    </Card>
+    <Card className=\\"mt-3\\" body={false}>
+      <div className=\\"mt-3 card\\">
+        <CardBody>
+          <div className=\\"card-body\\">
+            <CardTitle>
+              <ForwardRef className=\\"card-title\\">
+                <div className=\\"card-title h5\\">
+                  Yamaha
+                </div>
+              </ForwardRef>
+            </CardTitle>
+            <CardText>
+              <p className=\\"card-text\\">
+                Yamaha Motor Company Limited is a Japanese manufacturer of motorcycles, marine products such as boats and outboard motors, and other motorized products. The company was established in 1955 upon separation from Yamaha Corporation, and is headquartered in Iwata, Shizuoka, Japan.
+              </p>
+            </CardText>
+          </div>
+        </CardBody>
+      </div>
+    </Card>
+    <Card className=\\"mt-3 mb-5\\" body={false}>
+      <div className=\\"mt-3 mb-5 card\\">
+        <CardBody>
+          <div className=\\"card-body\\">
+            <CardTitle>
+              <ForwardRef className=\\"card-title\\">
+                <div className=\\"card-title h5\\">
+                  TVS
+                </div>
+              </ForwardRef>
+            </CardTitle>
+            <CardText>
+              <p className=\\"card-text\\">
+                TVS Motor Company Limited is an Indian multinational motorcycle company headquartered at Chennai, India. It is the third largest motorcycle company in India with a revenue of over ₹20,000 crore in 2018–19. The company has an annual sales of 3 million units and an annual capacity of over 4 million vehicles.
+              </p>
+            </CardText>
+          </div>
+        </CardBody>
+      </div>
+    </Card>
+  </div>
+</About>"
+`;
