@@ -5,7 +5,7 @@ exports[`Footer page snapshot renders correctly 1`] = `
   <Navbar fixed=\\"bottom\\" expand=\\"lg\\" bg=\\"dark\\" variant=\\"dark\\" collapseOnSelect={false}>
     <nav className=\\"navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom\\">
       <p className=\\"m-auto footerText\\">
-        Copyright © 2019
+        Copyright © 2020
       </p>
     </nav>
   </Navbar>

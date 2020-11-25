@@ -18,7 +18,7 @@ exports[`Banner page snapshot renders correctly 1`] = `
             <div className=\\"carousel-inner\\">
               <CarouselItem className=\\"active\\">
                 <div className=\\"active carousel-item\\">
-                  <img className=\\"d-block w-100 carousel-img-h\\" src=\\"/images/c1.jpg\\" alt=\\"First slide\\" />
+                  <img className=\\"d-block w-100 carousel-img-h\\" src=\\"/images/cor1.jpg\\" alt=\\"First slide\\" />
                   <CarouselCaption>
                     <div className=\\"carousel-caption\\" />
                   </CarouselCaption>
@@ -26,7 +26,7 @@ exports[`Banner page snapshot renders correctly 1`] = `
               </CarouselItem>
               <CarouselItem className=\\"\\">
                 <div className=\\"carousel-item\\">
-                  <img className=\\"d-block w-100 carousel-img-h\\" src=\\"/images/c2.jpg\\" alt=\\"First slide\\" />
+                  <img className=\\"d-block w-100 carousel-img-h\\" src=\\"/images/cor2.jpg\\" alt=\\"First slide\\" />
                   <CarouselCaption>
                     <div className=\\"carousel-caption\\" />
                   </CarouselCaption>
@@ -34,7 +34,7 @@ exports[`Banner page snapshot renders correctly 1`] = `
               </CarouselItem>
               <CarouselItem className=\\"\\">
                 <div className=\\"carousel-item\\">
-                  <img className=\\"d-block w-100 carousel-img-h\\" src=\\"/images/c3.jpg\\" alt=\\"First slide\\" />
+                  <img className=\\"d-block w-100 carousel-img-h\\" src=\\"/images/cor6.jpg\\" alt=\\"First slide\\" />
                   <CarouselCaption>
                     <div className=\\"carousel-caption\\" />
                   </CarouselCaption>

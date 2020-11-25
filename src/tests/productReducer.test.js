@@ -7,14 +7,14 @@ describe('Testing product reducer', () => {
 
     beforeEach(() => {
         defaultState = [{
-            "id": 4,
-            "name": "OnePlus 6",
-            "category": "Electronics",
-            "manufacturer": "One plus",
-            "price": 32500,
+            "id": 8,
+            "name": "scooty pep",
+            "category": "Motor cycle",
+            "manufacturer": "TVS",
+            "price": 70000,
             "quantity": 3,
-            "description": "It’s built to endure, has a premium sense of heft, oh… and it’s made of glass.",
-            "image": "https://cdn.mos.cms.futurecdn.net/A34hrrbFRE5soeqLEQ5aEi-768-80.jpg"
+            "description": "The TVS Scooty is a brand of Scooters made by TVS Motors of India. It is marketed mainly to women, and in 2009 was the largest selling brand among scooters aimed specifically at women buyers, selling about 25,000 units per month, compared to about 60,000 per month for the overall top selling scooter in India",
+            "image": "https://3.imimg.com/data3/HP/GC/MY-3535906/tvs-scooty-pep-500x500.jpg"
         }]
     });
 
@@ -33,14 +33,14 @@ describe('Testing product reducer', () => {
         let action = {};
         action.type = 'ADD_PRODUCT';
         action.product = {
-            "id": 5,
-            "name": "Jeans",
-            "category": "Fashion",
-            "manufacturer": "Pep Jeans",
-            "price": 3200,
-            "quantity": 27,
-            "description": "5 pockets mid rise jeans, lightly washed, has a zip fly with button closure.",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF7S7JdPpd4TVIGkppWzQDF2MfwgmZ357ckVZgg6x5DJ43z7RRfQ"
+            "id": 9,
+            "name": "TVS Sports",
+            "category": "Motor cycle",
+            "manufacturer": "TVS",
+            "price": 82000,
+            "quantity": 1,
+            "description": "TVS Motor Company Limited is an Indian multinational motorcycle company headquartered at Chennai, India. It is the third largest motorcycle company in India with a revenue of over ₹20,000 crore in 2018–19.",
+            "image": "https://cdn1.droom.in//uploads/category/TVS/20201017133516000000-6661557610645002241.jpg"
         };
         expect(ProductReducer(defaultState, action)).toHaveLength(2);
     });

@@ -7,9 +7,9 @@ describe('Testing user reducer', () => {
 
     beforeEach(() => {
         defaultState = [{
-            "firstName": "Vibakar",
-            "lastName": "K V",
-            "email": "vibakar@gmail.com",
+            "firstName": "Rajeshkans",
+            "lastName": "K",
+            "email": "rajeshkans@gmail.com",
             "password": "Password@123",
             "id": 2,
             "city": "Coimbatore",
@@ -17,8 +17,7 @@ describe('Testing user reducer', () => {
             "views": {
                 "1": 1,
                 "3": 4,
-                "5": 1,
-                "14": 2
+                "5": 1
             }
         }]
     });
@@ -38,8 +37,8 @@ describe('Testing user reducer', () => {
         let action = {};
         action.type = types.UPDATE_SINGLE_USER;
         action.user = {...defaultState[0]};
-        action.user.firstName = "Viba";
+        action.user.firstName = "Rajesh";
         let updatedUser = UserReducer(defaultState, action);
-        expect(updatedUser[0].firstName).toEqual("Viba");
+        expect(updatedUser[0].firstName).toEqual("Rajesh");
     });
 });
