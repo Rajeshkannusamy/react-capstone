@@ -9,6 +9,7 @@ describe('Banner page snapshot', () => {
         wrapper = mount(<Banner {...props} />);
     });
 
+    
     test('renders correctly', () => {
         expect(wrapper.debug()).toMatchSnapshot();
     });

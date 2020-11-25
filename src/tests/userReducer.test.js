@@ -13,11 +13,12 @@ describe('Testing user reducer', () => {
             "password": "Password@123",
             "id": 2,
             "city": "Coimbatore",
-            "mobile": "7639228797",
+            "mobile": "9965843081",
             "views": {
                 "1": 1,
                 "3": 4,
-                "5": 2
+                "5": 2,
+                "7": 1
             }
         }]
     });
