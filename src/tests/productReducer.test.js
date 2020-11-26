@@ -37,7 +37,7 @@ describe('Testing product reducer', () => {
             "name": "TVS Sports",
             "category": "Motor cycle",
             "manufacturer": "TVS",
-            "price": 84000,
+            "price": 83000,
             "quantity": 1,
             "description": "TVS Motor Company Limited is an Indian multinational motorcycle company headquartered at Chennai, India. It is the third largest motorcycle company in India with a revenue of over ₹20,000 crore in 2018–19.",
             "image": "https://cdn1.droom.in//uploads/category/TVS/20201017133516000000-6661557610645002241.jpg"
