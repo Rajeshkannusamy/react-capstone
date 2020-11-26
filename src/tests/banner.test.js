@@ -8,7 +8,7 @@ describe('Banner page snapshot', () => {
     beforeEach(() => {
         wrapper = mount(<Banner {...props} />);
     });
-   
+ 
     test('renders correctly', () => {
         expect(wrapper.debug()).toMatchSnapshot();
     });

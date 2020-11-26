@@ -8,7 +8,7 @@ describe('Footer page snapshot', () => {
     beforeEach(() => {
         wrapper = mount(<Footer {...props} />);
     });
-   
+ 
     test('renders correctly', () => {
         expect(wrapper.debug()).toMatchSnapshot();
     });
