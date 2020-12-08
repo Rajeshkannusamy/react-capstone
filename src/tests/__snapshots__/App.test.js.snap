@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header page snapshot renders corectly 1`] = `
+"<Provider store={{...}}>
+  <MemoryRouter>
+    <Router history={{...}}>
+      <App>
+        <div>
+          <Connect(withRouter(Header))>
+            <withRouter(Header) users={{...}} getAllUsers={[Function]} getUserDetails={[Function]} updateUser={[Function]} addUser={[Function]} getAllProducts={[Function]}>
+              <Header users={{...}} getAllUsers={[Function]} getUserDetails={[Function]} updateUser={[Function]} addUser={[Function]} getAllProducts={[Function]} history={{...}} location={{...}} match={{...}} staticContext={[undefined]}>
+                <div>
+                  <Navbar fixed=\\"top\\" expand=\\"lg\\" bg=\\"dark\\" variant=\\"dark\\" collapseOnSelect={false}>
+                    <nav className=\\"navbar navbar-expand-lg navbar-dark bg-dark fixed-top\\">
+                      <NavbarBrand className=\\"pointer\\" onClick={[Function]}>
+                        <span onClick={[Function]} className=\\"pointer navbar-brand\\">
+                          Bike Palace
+                        </span>
+                      </NavbarBrand>
+                      <NavbarToggle aria-controls=\\"responsive-navbar-nav\\" label=\\"Toggle navigation\\">
+                        <button aria-controls=\\"responsive-navbar-nav\\" type=\\"button\\" onClick={[Function]} aria-label=\\"Toggle navigation\\" className=\\"navbar-toggler collapsed\\">
+                          <span className=\\"navbar-toggler-icon\\" />
+                        </button>
+                      </NavbarToggle>
+                      <NavbarCollapse id=\\"responsive-navbar-nav\\">
+                        <Collapse in={false} id=\\"responsive-navbar-nav\\" timeout={300} mountOnEnter={false} unmountOnExit={false} appear={false} dimension=\\"height\\" getDimensionValue={[Function: getDimensionValue]}>
+                          <Transition addEndListener={[Function: transitionEnd]} in={false} id=\\"responsive-navbar-nav\\" timeout={300} mountOnEnter={false} unmountOnExit={false} appear={false} aria-expanded={{...}} onEnter={[Function]} onEntering={[Function]} onEntered={[Function]} onExit={[Function]} onExiting={[Function]} enter={true} exit={true} onExited={[Function: noop]}>
+                            <div className=\\"navbar-collapse collapse\\" id=\\"responsive-navbar-nav\\" aria-expanded={{...}}>
+                              <Nav className=\\"ml-auto\\" justify={false} fill={false}>
+                                <ForwardRef as=\\"div\\" activeKey={[undefined]} className=\\"ml-auto navbar-nav\\" onSelect={[Function]}>
+                                  <div className=\\"ml-auto navbar-nav\\" onKeyDown={[Function: handleKeyDown]} role={[undefined]}>
+                                    <NavLink className=\\"c-wh\\" onClick={[Function]} disabled={false} as={{...}}>
+                                      <ForwardRef onClick={[Function]} href={[undefined]} eventKey={[undefined]} as={{...}} disabled={false} onSelect={[undefined]} className=\\"c-wh nav-link\\">
+                                        <SafeAnchor href={[undefined]} disabled={false} data-rb-event-key={{...}} id={[undefined]} aria-controls={[undefined]} onClick={[Function]} className=\\"c-wh nav-link\\">
+                                          <a href=\\"#\\" data-rb-event-key={{...}} id={[undefined]} aria-controls={[undefined]} onClick={[Function: handleClick]} className=\\"c-wh nav-link\\" role=\\"button\\" onKeyDown={[Function: handleKeyDown]}>
+                                            About
+                                          </a>
+                                        </SafeAnchor>
+                                      </ForwardRef>
+                                    </NavLink>
+                                    <NavLink className=\\"c-wh\\" onClick={[Function]} disabled={false} as={{...}}>
+                                      <ForwardRef onClick={[Function]} href={[undefined]} eventKey={[undefined]} as={{...}} disabled={false} onSelect={[undefined]} className=\\"c-wh nav-link\\">
+                                        <SafeAnchor href={[undefined]} disabled={false} data-rb-event-key={{...}} id={[undefined]} aria-controls={[undefined]} onClick={[Function]} className=\\"c-wh nav-link\\">
+                                          <a href=\\"#\\" data-rb-event-key={{...}} id={[undefined]} aria-controls={[undefined]} onClick={[Function: handleClick]} className=\\"c-wh nav-link\\" role=\\"button\\" onKeyDown={[Function: handleKeyDown]}>
+                                            Login
+                                          </a>
+                                        </SafeAnchor>
+                                      </ForwardRef>
+                                    </NavLink>
+                                  </div>
+                                </ForwardRef>
+                              </Nav>
+                            </div>
+                          </Transition>
+                        </Collapse>
+                      </NavbarCollapse>
+                    </nav>
+                  </Navbar>
+                  <Bootstrap(Modal) show={false} onHide={[Function]} size=\\"lg\\" centered={true}>
+                    <Modal show={false} onHide={[Function]} size=\\"lg\\" centered={true} bsPrefix=\\"modal\\" backdrop={true} keyboard={true} autoFocus={true} enforceFocus={true} restoreFocus={true} animation={true} dialogAs={{...}} manager={{...}}>
+                      <ForwardRef show={false} backdrop={true} container={[undefined]} keyboard={true} autoFocus={true} enforceFocus={true} restoreFocus={true} onEscapeKeyDown={[undefined]} onShow={[undefined]} onHide={[Function]} onEntered={[undefined]} onExit={[undefined]} onExiting={[undefined]} manager={{...}} style={{...}} className=\\"modal\\" containerClassName=\\"modal-open\\" transition={[Function: DialogTransition]} backdropTransition={[Function: BackdropTransition]} renderBackdrop={[Function]} onClick={[Function]} onMouseUp={[Function]} onEnter={[Function]} onEntering={[Function]} onExited={[Function]}>
+                        <Modal show={false} backdrop={true} container={{...}} keyboard={true} autoFocus={true} enforceFocus={true} restoreFocus={true} onEscapeKeyDown={[undefined]} onShow={[undefined]} onHide={[Function]} onEntered={[undefined]} onExit={[undefined]} onExiting={[undefined]} manager={{...}} style={{...}} className=\\"modal\\" containerClassName=\\"modal-open\\" transition={[Function: DialogTransition]} backdropTransition={[Function: BackdropTransition]} renderBackdrop={[Function]} onClick={[Function]} onMouseUp={[Function]} onEnter={[Function]} onEntering={[Function]} onExited={[Function]} role=\\"dialog\\" />
+                      </ForwardRef>
+                    </Modal>
+                  </Bootstrap(Modal)>
+                </div>
+              </Header>
+            </withRouter(Header)>
+          </Connect(withRouter(Header))>
+          <div className=\\"mt-56\\">
+            <Suspense fallback={{...}}>
+              <Route path=\\"/\\" exact={true} component={{...}} />
+              <Route path=\\"/productDetail/:id\\" component={{...}} />
+              <Route path=\\"/add-product\\" component={{...}} />
+              <Route path=\\"/edit-product/:id\\" component={{...}} />
+              <Route path=\\"/profile\\" component={{...}} />
+              <Route path=\\"/about\\" component={{...}} />
+              <h3>
+                Loading...
+              </h3>
+            </Suspense>
+          </div>
+          <Footer>
+            <Navbar fixed=\\"bottom\\" expand=\\"lg\\" bg=\\"dark\\" variant=\\"dark\\" collapseOnSelect={false}>
+              <nav className=\\"navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom\\">
+                <p className=\\"m-auto footerText\\">
+                  Copyright © 2020
+                </p>
+              </nav>
+            </Navbar>
+          </Footer>
+        </div>
+      </App>
+    </Router>
+  </MemoryRouter>
+</Provider>"
+`;

@@ -17,8 +17,7 @@ describe('Testing user reducer', () => {
             "views": {
                 "1": 1,
                 "3": 4,
-                "5": 2,
-                "7": 1
+                "5": 2
             }
         }]
     });
